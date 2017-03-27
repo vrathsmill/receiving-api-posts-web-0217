@@ -12,13 +12,13 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :title %><br>
+    <%= f.label "My post title" %><br>
     <%= f.text_field :title %>
   </div>
 
   <div class="field">
-    <%= f.label :description %><br>
-    <%= f.text_field :description %>
+    <%= f.label  "My post description" %><br>
+    <%= f.text_field :description, id:title %>
   </div>
 
   <div class="actions">
